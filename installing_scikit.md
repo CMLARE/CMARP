@@ -6,8 +6,8 @@ $ sudo pip install --upgrade pip
 $ sudo pip install --upgrade virtualenv ``
 
 1. cd to the project 
-2. Create a virtual environment by `` virtualenv -p python3 CMARP``
-3. ``cd CMARP/bin`` and ``source activate`` to start the virtual environment
+2. Create a virtual environment by `` virtualenv -p python3 virtual``
+3. ``cd virtual/bin`` and ``source activate`` to start the virtual environment
 4. install numpy using pip `` pip install numpy``
 5. Install scipy using pip `` pip install scipy``
 6. Install SciKit using pip `` pip install -U scikit-learn``
@@ -21,8 +21,8 @@ OR with the virtualenvprop.txt file I have created you can easily set up all.
 
 1. Clone project / Pull
 2. Install virtualenv same as above.
-3. ``virtualenv CMARP``
-4. ``source CMARP/bin/activate`` (Now you'll see ``(CMARP)$`` in left of the terminal)
+3. ``virtualenv -p python3 virtual``
+4. ``source virtual/bin/activate`` (Now you'll see ``(virtual)$`` in left of the terminal)
 5.  ``pip install -r virtualenvprop.txt``
 6. Try something eg: start python by ``python`` and ``from sklearn import datasets`` ('' If success your'e all set")
 
