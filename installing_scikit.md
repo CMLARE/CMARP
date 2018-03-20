@@ -1,4 +1,5 @@
-#Installing Scikit
+##Installing Scikit
+
 It's better to use a virtual environment to install these packages to avoid conflicts with already installed versions.
 First install pip and virtualenv. In ubuntu use 
 ``$ sudo apt-get install python-pip python-dev build-essential 
@@ -28,5 +29,7 @@ OR with the virtualenvprop.txt file I have created you can easily set up all.
 
 
 **Viola you are now ready. Read the official documentation[http://scikit-learn.org/stable/documentation.html] **
+
+Please don't forget to add the create virtualenv folder to .gitignore if you used some else name for it.
 
 
